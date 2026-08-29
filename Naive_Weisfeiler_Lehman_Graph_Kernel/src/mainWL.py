@@ -56,12 +56,5 @@ if __name__ == "__main__":
     print(f"EXPERIMENT RESULTS: WL_{'_'.join(sys.argv[1:])}")
     print("=" * 60)
 
-    # models = ["Logistic Regression", "Gradient Boosting Trees"]
-    # for name, (acc, report) in zip(models, results):
-    #     print(f"\nModel: {name}")
-    #     print(f"Accuracy: {acc:.4f}")
-    #     print("Classification Report:")
-    #     print(report)
-    #     print("-" * 60)
 
     print(f"\nResults successfully saved to: {resultsFilePath}\n")
